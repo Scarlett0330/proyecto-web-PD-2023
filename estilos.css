@@ -33,7 +33,7 @@ body {
 }
 
 .header {
-    border: 10px dotted orange;
+    /* border: 10px dotted orange;*/
     display: flex; /* Propiedad obligatoria para utilizar flexbox */
     flex-direction: column; /*Establecer eje pricipal vertical (colum), horizontal (row) */
     align-items: center;/*Controlar el eje secundario de los elemntos hijos*/
@@ -62,9 +62,97 @@ body {
     font-style: normal;
     /*margin: 2rem;*/
    /* margin-bottom: 2rem;*/
-   
+
 }
 .header__parrafo{
     text-align: center;
     font-style: italic;
+}
+
+/* Seccion 1 */
+
+seccion1 {
+    /* padding: 1rem 2rem 3rem 4rem */
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+
+}
+.seccion1__item {
+    background-color: orangered;
+    border-radius: 0.5rem;
+}
+
+.seccion1__lista {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    list-style-type: none;
+}
+
+.seccion1__enlace {
+    /*background-color: rgb(231, 103, 13); */
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+/* Seccion 2 */
+
+.seccion2__mapa {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Seccion 3 */
+
+.seccion3 {
+    padding: 2rem;
+}
+
+.seccion3__lista{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.seccion3__item{
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+.seccion3__enlace{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: ghostwhite;
+}
+
+.seccion3__icono{
+    font-size: 4rem;
+    color: rgb(226, 88, 34);
+}
+
+/* Seccion 4 */
+
+.seccion4{
+    padding: 2rem;
+}
+
+.seccion4__banner{
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
 }
