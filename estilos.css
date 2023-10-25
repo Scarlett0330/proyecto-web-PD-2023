@@ -46,8 +46,8 @@ body {
     border: 10 px solid violet;
 }
 
-.footer{
-    border: 10px solid mediumblue;
+.footer {
+   /* border: 10px solid mediumblue; */
 }
 
 .header__logo {
@@ -146,13 +146,27 @@ seccion1 {
 /* Seccion 4 */
 
 .seccion4{
-    padding: 2rem;
+    padding: 0.5rem;
 }
 
 .seccion4__banner{
-    width: 80%;
-    height: 300px;
+    width: 50%;
     object-fit: cover;
     margin: 0 auto;
     display: block;
+    
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.footer__logo{
+    width: 500px;
+    height: 300px;
 }
