@@ -22,6 +22,49 @@ body {
     background-color: #39ADA9;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
-
+    /* background-image: url("images/stacked-waves-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 
+.header, .main, .footer {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.header {
+    border: 10px dotted orange;
+    display: flex; /* Propiedad obligatoria para utilizar flexbox */
+    flex-direction: column; /*Establecer eje pricipal vertical (colum), horizontal (row) */
+    align-items: center;/*Controlar el eje secundario de los elemntos hijos*/
+    /*justify-content: center; */ /* Controlar el eje pricnipal de los elementos hijos */
+    padding: 2rem;
+   /* margin: 2rem;*/
+}
+
+.main {
+    border: 10 px solid violet;
+}
+
+.footer{
+    border: 10px solid mediumblue;
+}
+
+.header__logo {
+    width: 100px;
+    height: 100px;
+}
+.header__titulo {
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    /*margin: 2rem;*/
+   /* margin-bottom: 2rem;*/
+   
+}
+.header__parrafo{
+    text-align: center;
+    font-style: italic;
+}
