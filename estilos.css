@@ -170,3 +170,13 @@ seccion1 {
     width: 500px;
     height: 300px;
 }
+
+/* Seccion 5 */
+
+.seccion5{
+    padding: 2rem;   
+}
+
+.seccion5__titulo{
+    text-align: center;
+}
