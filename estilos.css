@@ -163,7 +163,7 @@ seccion1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .footer__logo{
@@ -174,9 +174,15 @@ seccion1 {
 /* Seccion 5 */
 
 .seccion5{
-    padding: 2rem;   
+    padding: 2rem; 
+    text-align: left;  
 }
 
 .seccion5__titulo{
     text-align: center;
+}
+
+.seccion5__boton{
+    color: #ffffff;
+    background-color: rgb(226, 88, 34);
 }
