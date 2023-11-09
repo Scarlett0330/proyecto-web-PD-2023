@@ -185,4 +185,24 @@ seccion1 {
 .seccion5__boton{
     color: #ffffff;
     background-color: rgb(226, 88, 34);
+    border-color: #ffffff;
+    width: 100%;
+    
 }
+
+/* Media Querys */
+
+/* Mobile First */ 
+@media (min-width: 900px) {
+   body {
+       background-color:deepskyblue;
+   }
+}
+
+/* Desktop First */
+/* @media (max-width:768px) {
+    body {
+        background-color: crimson;
+    }
+} */
+
