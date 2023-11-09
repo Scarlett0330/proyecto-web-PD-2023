@@ -183,11 +183,9 @@ seccion1 {
 }
 
 .seccion5__boton{
-    color: #ffffff;
+    color: #fff8f8;
     background-color: rgb(226, 88, 34);
     border-color: #ffffff;
-    width: 100%;
-    
 }
 
 /* Media Querys */
