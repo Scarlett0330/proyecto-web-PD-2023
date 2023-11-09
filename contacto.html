@@ -18,10 +18,11 @@
 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
     <header class="header">
         <img class="header__logo" src="images/LOGO PERFIR GOOGLE.png" alt="Logotipo oficial" width="200" height="200">  
-        <h1 class="header__titulo"> Barra del Ceviche </h1>
+        <h1 class="header__titulo"> La Barra del Ceviche </h1>
         <p class="header__parrafo">  Somos tu espacio, un restaurante especializado en mariscos ubicado en el corazón de Managua </p>
     </header>
     <main class="main">
@@ -32,37 +33,33 @@
                 </li>
             <ul>
         <section>
-            <section class="seccion5">
+        <section class="seccion5">
             <h1 class="seccion5__titulo">Contactanos</h1>
-            <form>
+            <form action="https://formspree.io/f/mleyvkwg" method="POST">
                 <div class="mb-3">
                     <label for="formGroupExampleInput" class="form-label">Nombre Completo</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput">
+                    <input type="text" class="form-control" name="nombre" id="formGroupExampleInput">
                   </div>
                   </div> 
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
                 </div>
-                <div class="mb-3"></div>
+                <div class="mb-3">
                 <label for="">Tipo de consulta</label>
-                <select class="form-select" aria-label="Default select example">
+                <select name="tipo" class="form-select" aria-label="Default select example">
                     <option selected>Seleccione una opción>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
+                    <option value="Ayuda">Ayuda</option>
+                    <option value="Comprar">Comprar</option>
+                    <option value="Devolucion">Devolucion</option>
                     <select>
                 </div> 
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label"> Consulta </label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
                 </div>
 
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Aceptas los terminos y condiciones</label>
-                </div>
-                <button type="button" class="btn seccion5__boton" data-bs-toggle="button">Enviar</button>
+                <button type="button" class="btn btn-outline-primary">Enviar</button>
                 
               </form>
 
