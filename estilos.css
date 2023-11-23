@@ -19,7 +19,7 @@ img, video, iframe {
 }
 
 body {
-    background-color: #39ADA9;
+    background-color:#3db1aa;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     /* background-image: url("images/stacked-waves-haikei.svg");
@@ -29,7 +29,7 @@ body {
 
 .header, .main, .footer {
     max-width: 600px;
-    margin: 0 auto;
+    margin:auto
 }
 
 .header {
@@ -38,21 +38,27 @@ body {
     flex-direction: column; /*Establecer eje pricipal vertical (colum), horizontal (row) */
     align-items: center;/*Controlar el eje secundario de los elemntos hijos*/
     /*justify-content: center; */ /* Controlar el eje pricnipal de los elementos hijos */
-    padding: 2rem;
+    padding: 1rem;
    /* margin: 2rem;*/
 }
 
 .main {
-    border: 10 px solid violet;
+    border: 10 px solid rgb(255, 255, 255);
 }
 
 .footer {
    /* border: 10px solid mediumblue; */
+   text-transform: uppercase;
+   font-size: 20px;
+   color: #ffffff;
+   font-style:normal;
+   text-align: center;
+
 }
 
 .header__logo {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
 }
 .header__titulo {
     font-size: 40px;
@@ -80,7 +86,7 @@ seccion1 {
 
 }
 .seccion1__item {
-    background-color: orangered;
+    background-color: #cc4e00;
     border-radius: 0.5rem;
 }
 
@@ -140,7 +146,7 @@ seccion1 {
 
 .seccion3__icono{
     font-size: 4rem;
-    color: rgb(226, 88, 34);
+    color: #cc4e00;
 }
 
 /* Seccion 4 */
@@ -150,7 +156,7 @@ seccion1 {
 }
 
 .seccion4__banner{
-    width: 50%;
+    width: 60%;
     object-fit: cover;
     margin: 0 auto;
     display: block;
@@ -184,7 +190,7 @@ seccion1 {
 
 .seccion5__boton{
     color: #fff8f8;
-    background-color: rgb(226, 88, 34);
+    background-color: #cc4e00;
     border-color: #ffffff;
 }
 
@@ -193,7 +199,7 @@ seccion1 {
 /* Mobile First */ 
 @media (min-width: 900px) {
    body {
-       background-color:deepskyblue;
+       background-color:#3db1aa;
    }
 }
 
